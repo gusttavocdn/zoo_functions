@@ -1,9 +1,5 @@
-import { species } from '../data/zoo_data';
 import { type Specie, type SpeciesNames } from './types/Specie';
-
-function getAnimalsBySpecie(specie: SpeciesNames): Specie | undefined {
-  return species.find(({ name }) => name === specie);
-}
+import { getAnimalsBySpecie } from './utils/getAnimalsBySpecie';
 
 function getAnimalsOlderThan(specie: SpeciesNames, age: number): boolean {
   const { residents } = getAnimalsBySpecie(specie) as Specie;
