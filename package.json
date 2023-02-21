@@ -1,7 +1,7 @@
 {
   "name": "zoo_functions",
   "version": "1.0.0",
-  "description": "",
+  "description": "A list of function that handle a data file about a Zoo Information. The functions is this project has as purpose to practice the use of HOF's and Programing Logic",
   "main": "index.js",
   "scripts": {
     "dev": "tsx ./src/getRelatedEmployees.ts",
